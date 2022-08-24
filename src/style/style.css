@@ -107,6 +107,18 @@ body {
     color: #333333;
 }
 
+.headlinediv {
+    position: sticky;
+    display: inline-grid;
+    white-space: nowrap;
+    background-color: #ffffff;
+    margin-left: 10px;
+    margin-top: 69px;
+    width: 140px;
+    height: 175px;
+    border-radius: 25px;
+}
+
 .weather {
     position: absolute;
     margin-left: 7.5vw;
@@ -115,4 +127,9 @@ body {
     height: 75px;
     background-color: white;
     border-radius: 25px;
+}
+
+.weathericon {
+    margin-left: 5vw;
+    margin-top: 20px;
 }
