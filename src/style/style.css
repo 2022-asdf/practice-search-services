@@ -93,7 +93,26 @@ body {
 .headlines {
     position: absolute;
     width: 100vw;
-    height: 245px;
+    height: 500px;
     margin-top: 285px;
     background-color: #F5F5F5;
+}
+
+.headlinetxt {
+    position: absolute;
+    margin-left: 7.5vw;
+    margin-top: 30px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #333333;
+}
+
+.weather {
+    position: absolute;
+    margin-left: 7.5vw;
+    margin-top: 559px;
+    width: 85vw;
+    height: 75px;
+    background-color: white;
+    border-radius: 25px;
 }
