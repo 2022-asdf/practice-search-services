@@ -1,17 +1,99 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+* {
+    margin: 0em;
+    padding: 0em;
+    max-height: 100%;
+    width: auto;
+    font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
 body {
+    background-color: #F5F5F5;
+}
+
+.info {
     position: absolute;
-    width: 390px;
-    height: 844px;
+    margin-inline: 7.5vw;
+    margin-top: 65px;
+    width: 85vw;
+    height: 35px;
 }
 
-.bgcolor {
-    background-color: #ed1280;
+.menu {
+    margin-top: 9px;
+    display: inline-flex;
+    position: absolute;
+    float: left;
 }
 
-.searchbar {
-    width: 18rem;
+.profile {
+    position: absolute;
+    right: 0vw;
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
 }
 
-.dimigo-color {
-    color: #ed1280;
+.search {
+    position: absolute;
+    margin-top: 150px;
+    margin-inline: 7.5vw;
+    width: 85vw;
+    height: 55px;
+    border-radius: 55px;
+    background-color: white;
+    border: 3px solid #ed1280;
+    z-index: 0;
+}
+
+.search::placeholder {
+    font-size: 1rem;
+    text-indent: 50px;
+    color: #BBBBBB;
+}
+
+
+.logo {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-left: 7.5vw;
+    left: 15px;
+    margin-top: 165px;
+}
+
+.navbar {
+    position: absolute;
+    margin-top: 235px;
+    width: 100vw;
+    height: 50px;
+    background-color: #ffffff;
+}
+
+.navlist {
+    position: sticky;
+    display: inline-grid;
+    white-space: nowrap;
+    margin-left: 30px;
+    margin-top: 14px;
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #AAAAAA;
+}
+
+.headlines {
+    position: absolute;
+    width: 100vw;
+    height: 245px;
+    margin-top: 285px;
+    background-color: #F5F5F5;
 }
